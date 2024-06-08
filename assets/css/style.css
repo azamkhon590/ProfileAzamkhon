@@ -1,0 +1,132 @@
+.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:black;
+    position: relative;
+    border-radius: 15px;
+    z-index: 1;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+.modal_shadow{
+    height:100%;
+    width:100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+}
+.hiddnt{
+    overflow: hidden;
+}
+.icon_info{
+    background-color: rgb(29, 29, 27);
+    border-radius: 15px;
+    padding: 100px 50px;
+    border: 1px solid yellow;
+    position: fixed;
+    top: 180px;
+    left: 500px;
+    z-index: 3;
+}
+header{
+    height: 10svh;
+    padding: 20px 10px;
+}
+section{
+    height:100svh;
+}
+.white{
+    color: white;
+}
+.nav{
+    justify-content: space-between;
+}
+.nav-link:hover{
+    color: white;
+}
+.text_my_info{
+    position: absolute;
+    left: 200px;
+    top: 250px;
+}
+.my_img{
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    left: 600px;
+    height: 500px;
+    width: 350px;
+}
+.skill_item{
+    padding: 12px 20px;
+    margin-bottom: 15px;
+    border: 1px solid yellow;
+    border-radius: 5px;
+}
+.skill_img{
+    height: 80px;
+    width: auto;
+}
+.skill_text{
+    padding: 0 30px;
+}
+.skill-top_text{
+    height: 20px;
+    width: 100px;
+}
+.skill-top_img{
+    height: 80px;
+    width: auto;
+}
+.left-text{
+    position: relative;
+    top: 15px;
+    left: 170px;
+}
+.right-text{
+    position: relative;
+    top: 15px;
+    left: 900px;
+}
+.anim{
+    position: relative;
+    top: 130px;
+    left: 150px;
+    animation: circle 5s infinite linear;
+}
+@keyframes circle{
+    0%{
+        top: 130px;
+        left: 150px;
+    }
+    25%{
+        top: 130px;
+        left: 500px;
+    }
+    50%{
+        top: 130px;
+        left: 920px;
+    }
+    75%{
+        top: 130px;
+        left: 500px;
+    }
+    100%{
+        top: 130px;
+        left: 150px;
+    }
+}
+.profile_project{
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.footer_block{
+    justify-content: space-between;
+}
+

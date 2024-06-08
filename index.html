@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="bg-dark">
+    <div class="modal-bg d-none">
+        <div class="modal_shadow" onclick="icon()"></div>
+        <div class="icon_info text-center white">
+            <h3>Связь</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <i class="fa-solid fa-phone"></i> 89514918930
+        </div>
+    </div>
+    <div class="container">
+        <header>
+            <div class="nav-block">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link white" href="#home">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link white" href="#skill">Навыки</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link white" href="#skill-top">Опыт</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link white" href="#profile">Портфолио</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-warning click" href="##">Связь <i class="fa-solid fa-phone"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <section id="#home">
+            <div class="block_my_info d-flex row">
+                <div class="col-3 text_my_info white">
+                    <h3>Саидахроров <br> Аъзамхон</h3>
+                    <p>Frontend Developer</p>
+                </div>
+                <div class="col-4">
+                    <img class="my_img" src="assets/image/photo.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="skill">
+            <h3 class="text-center white">
+                Навыки программирования
+            </h3>
+            <div class="skill_item d-flex">
+                <img class="skill_img" src="assets/image/ijkb.webp" alt="">
+                <p class="skill_text white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptas,
+                    consequuntur nostrum quibusdam dolor voluptate?</p>
+            </div>
+            <div class="skill_item d-flex">
+                <img class="skill_img" src="assets/image/css.png" alt="">
+                <p class="skill_text white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptas,
+                    consequuntur nostrum quibusdam dolor voluptate?</p>
+            </div>
+            <div class="skill_item d-flex">
+                <img class="skill_img" src="assets/image/images.jfif" alt="">
+                <p class="skill_text white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptas,
+                    consequuntur nostrum quibusdam dolor voluptate?</p>
+            </div>
+            <div class="skill_item d-flex">
+                <img class="skill_img" src="assets/image/Bootstrap.png" alt="">
+                <p class="skill_text white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptas,
+                    consequuntur nostrum quibusdam dolor voluptate?</p>
+            </div>
+            <div class="skill_item d-flex">
+                <img class="skill_img" src="assets/image/jquery.png" alt="">
+                <p class="skill_text white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptas,
+                    consequuntur nostrum quibusdam dolor voluptate?</p>
+            </div>
+        </section>
+        <section id="skill-top">
+            <div class="skill-top_block">
+                <div class="skill-top_title text-center white">
+                    <h3>Опыт</h3>
+                </div>
+                <div class="skill-top_text left-text white">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                </div>
+                <div class="skill-top_text right-text white">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                </div>
+                <div class="anim-block">
+                    <img src="assets/image/circle.png" alt="uyy" class="anim skill-top_img">
+                </div>
+            </div>
+        </section>
+        <section id="profile">
+            <div class="profile_block">
+                <div class="profile_title text-center white">
+                    <h3>Портфолио</h3>
+                </div>
+                <div class="project">
+                    <div class="row">
+                        <div class="col-4 profile_project mb-sm-0">
+                            <div class="card">
+                                <div class="card-body bg-dark white">
+                                    <h5 class="card-title">JS|UI</h5>
+                                    <p class="card-text">jQuery<br>Bootstrap</p>
+                                    <a href="https://github.com/azamkhon590/JS-UI.git" class="btn btn-primary">Посмотреть код <i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 profile_project mb-sm-0">
+                            <div class="card">
+                                <div class="card-body bg-dark white">
+                                    <h5 class="card-title">WebShopBackend</h5>
+                                    <p class="card-text">ASP.NET CORE 6<br>C#</p>
+                                    <a href="https://github.com/azamkhon590/WebApplicationShopBeckend.git" class="btn btn-primary">Посмотреть код <i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 profile_project mb-sm-0">
+                            <div class="card">
+                                <div class="card-body bg-dark white">
+                                    <h5 class="card-title">JS|UI</h5>
+                                    <p class="card-text">jquery bootstrap</p>
+                                    <a href="##" class="btn btn-primary">Посмотреть код <i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 profile_project mb-sm-0">
+                            <div class="card">
+                                <div class="card-body bg-dark white">
+                                    <h5 class="card-title">JS|UI</h5>
+                                    <p class="card-text">jquery bootstrap</p>
+                                    <a href="##" class="btn btn-primary">Посмотреть код <i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer_block d-flex">
+                <div class="footer_nav flex-column">
+                    <a href="#">Home</a>
+                </div>
+                <div class="footer_text white">
+                    <p>Саидахроров Аъзамхон</p>
+                </div>
+                <div class="phone white">
+                    89514918930 <i class="fa-solid fa-phone"></i>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
